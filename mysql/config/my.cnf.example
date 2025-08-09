@@ -1,0 +1,9 @@
+[mysqld]
+max_connections=500
+innodb_buffer_pool_size=2G
+character-set-server=utf8mb4
+collation-server=utf8mb4_unicode_ci
+local_infile=1
+secure-file-priv = "/export" 
+wait_timeout = 1200
+interactive_timeout = 1200

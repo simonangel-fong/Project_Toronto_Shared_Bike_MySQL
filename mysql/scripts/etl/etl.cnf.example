@@ -1,0 +1,7 @@
+[client]
+user=root
+password=
+host=localhost
+loose-local-infile = 1
+wait_timeout = 1200
+local_infile=1
